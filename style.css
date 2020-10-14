@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+#all{
+    width: 800px;
+    margin: auto;
+    
+}
+header{
+    margin-top: 30px;
+    height: 60px;
+    margin-bottom: 10px;
+    line-height: 60px;
+    font-size: 25px;
+    
+}
+
+main{
+    margin-top: 10px;
+}
+input{
+    height: 25px;
+    width: 150px;
+    padding-left: 10px;
+    -webkit-box-shadow: inset 0px 0px 21px 0px rgba(158,155,158,1);
+    -moz-box-shadow: inset 0px 0px 21px 0px rgba(158,155,158,1);
+    box-shadow: inset 0px 0px 21px 0px rgba(158,155,158,1);
+    background-color: lightblue;
+    border-radius: 3px;
+    border: 0px;
+}
+button{
+    height: 25px;
+    width: 70px;
+}
+form{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+article{
+    border: 1px solid gray;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 120px auto;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(158,155,158,0.48);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(158,155,158,0.48);
+    box-shadow: 0px 0px 21px 0px rgba(158,155,158,0.48);
+}
+p{
+    margin-bottom: 10px;
+    
+}
+#nested-div-one{
+    display: grid;
+    grid-template-columns: 100px auto;
+    height: 35px;
+    line-height: 35px;
+    
+}
+#nested-div-two{
+    display: grid;
+    grid-template-columns: 140px auto; 
+    height: 35px;
+    line-height: 35px;
+    
+}#nested-div-three{
+    display: grid;
+    grid-template-columns: 100px auto;
+    height: 35px;
+    line-height: 35px;
+    
+}
+p{
+    text-align: start;
+}

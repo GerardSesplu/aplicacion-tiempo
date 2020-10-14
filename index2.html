@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
+    <script src="script2.js"></script>
+    <div id="all">
+        <header><h1>Tiempo</h1></header>
+        <hr>
+        <main>
+            <form>
+                <input id="city" type="text" placeholder="Busca una ciudad">
+                <button type="button" id="buscar" onclick="searchCity()">Buscar</button>
+            </form>
+            <section>
+                <article>
+                    <div id="div-one"></div>
+                    <div id="div-two">
+                        <div id="nested-div-one"><h3>Ciudad:</h2><p id="cityId"></p></div>
+                        <div id="nested-div-two"><h3>Temperatura:</h2><p id="tempId"></p></div>
+                        <div id="nested-div-three"><h3>Humedad:</h2><p id="humidityId"></p></div>
+                    </div>  
+                </article>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
